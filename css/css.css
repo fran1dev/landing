@@ -1,0 +1,230 @@
+html, body{
+    min-width: 250px;
+}
+@media (max-width: 768px){
+    header {
+        flex-wrap: wrap;
+    }
+}
+html{
+    background-color: lightgray;
+}
+a {
+    font-family: 'Quicksand', sans-serif;
+} 
+h2 {
+    font-family: 'Lexend Giga', sans-serif;
+}
+p, li{
+    font-family: 'Lexend Giga', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    padding: 0px 20px;
+    background-color: white;
+}
+@media (max-width: 768px){
+    .logo {
+        text-align: center;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+.logo {
+    width: 60vw;
+}
+@media (max-width: 768){
+    .note{
+        margin: 0 auto;
+    }
+}
+.note {
+   min-width: 30%;
+   max-width: 30%;
+}
+@media (max-width: 768px){
+    .note {
+        min-width: 150px;
+    }
+}
+@media(min-width: 768px) {
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+}
+.btn {
+    font-family: 'Lexend Giga', sans-serif;
+}
+ul {
+    justify-content: space-around;
+}
+@media (min-width: 768px){
+    ul{
+        width: 35vw;
+    }
+}
+li{
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-march-parent;
+    margin-bottom: .5rem;
+}
+a.nav-link {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin-left: .5rem;
+    background-color: rgb(196, 255, 78);
+    padding: .2rem;
+    border-radius: 2px;
+}
+a.nav-link:hover {
+    transition: ease-in-out .3s;
+    padding: 1rem;
+    background-color: rgb(240, 178, 6);
+}
+@media (max-width: 768px){
+    nav {
+        margin-right:2rem;
+        text-align: center;
+    }
+}
+.content {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+#hero{
+    text-align: center;
+}
+form#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input#email{
+    padding: .2rem;
+    width: 350px;
+}
+@media (max-width: 500px){
+    input#email{
+        width: 70%;
+    }
+}
+input#submit.btn{
+    width: 200px;
+    margin-top: .5rem;
+    color: black;
+    background-color: rgb(196, 255, 78);
+    padding: .5rem;
+}
+section#features {
+    background-color: white;
+}
+div.flex{
+    display: flex;
+    margin-left: 12rem;
+}
+@media (max-width: 768px){
+div.flex{
+    display: flex;
+    margin-left: 2rem;
+}
+}
+.iconos{
+    max-width: 80px;
+}
+@media (max-width: 768px) {
+    .iconos {
+        max-width: 30px;
+    }
+}
+@media (max-width: 345px) {
+    .iconos {
+        display: none;
+    }
+}
+div.descripcion{
+    margin-left: 1rem;
+}
+@media (min-width: 768px){
+    div.descripcion{
+        margin-left: 6rem;
+    }
+}
+.video{
+    margin-left: 20rem;
+    display: flex;
+}
+@media (max-width: 1000px){
+    .video{
+        margin-left: 10rem;
+    }
+}
+@media (max-width: 800px){
+    .video{
+        width: 80%;
+        margin-left: 2rem;
+    }
+}
+.producto{
+    flex: 0 0 calc(33.3% - 2rem);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border: 1px solid #000;
+}
+#pricing{
+    text-align: center;
+}
+@media (min-width: 520px){
+    #pricing{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+}
+ol{
+    margin-left: -3rem;
+}
+.level {
+    font-size: 2rem;
+    background-color: rgb(245, 212, 27);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Quicksand', sans-serif;
+}     
+.btn {
+    padding: 1rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.footer {
+    
+    justify-content: flex-end;
+    padding: 1rem;
+}
+@media (min-width:768px) {
+    .footer{
+        display: flex;
+    }
+}
+.a{
+    margin-left: 1rem;
+}
+span {
+    display: flex;
+    padding: 0rem 1rem 1rem 0rem;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
